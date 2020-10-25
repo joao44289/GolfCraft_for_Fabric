@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "golfcraft",
+  "version": "${version}",
+  "name": "Golfcraft",
+  "description": "A bad attempt at a minecraft golf mod.",
+  "authors": [
+    "Jo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/golfcraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jo.golfcraft.GolfCraft"
+    ]
+  },
+  "mixins": [
+    "golfcraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.3+build.211",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
